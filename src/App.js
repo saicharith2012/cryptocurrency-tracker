@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 import Header from "./components/Header";
 
 const useStyles = makeStyles(() => ({
@@ -10,7 +10,7 @@ const useStyles = makeStyles(() => ({
 }));
 
 function App() {
-  const classes = useStyles
+  const classes = useStyles;
   return (
     <BrowserRouter>
       <div className={classes.App}>
